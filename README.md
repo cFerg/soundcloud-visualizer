@@ -29,13 +29,33 @@ Playlists (also known as "sets" in Soundcloud) can now be pasted into the visual
 
 # Issues
 
-Since the web audio API is pretty new, browser support is patchy:
+Since the web audio API is pretty new, some browsers may not work with this - while others may require slight adjustmenst.
 
-- *Chrome* Latest versions works well, that's what I've been building in.
-- *Firefox* This *should* work, since it has supported web audio since version 25, but in my tests the audio fails to play. Any suggestions?
-- *Safari* I haven't tested it since I'm stuck with the dead Windows version, but I guess it should work since it's WebKit.
-- *IE* Nope.
-- *Opera* Not tested but maybe now that they switched to WebKit.
+##Web Browsers
+-----
+    ###Works
+    -----
+        - *Chrome* Tested and works.
+        - *Opera* Tested and works.
+    ###Doesn't Work
+    -----
+        - *Firefox* Tested - entire visualizer nor player doesn't display. Any suggestions?
+        - *Safari* Tested - audio works, but hexagons don't display.
+        - *IE* Tested - doesn't work period.
+        
+##Mobile Browsers
+-----
+    ###Works
+    -----
+        *Android Browser* Tested and works.
+    ###Doesn't Work
+    -----
+        *Safari* Tested - audio works, but hexagons don't display.
+        *Opera Mini* Not Tested.
+        *Chrome* Not Tested.
+        *UC Browser* Not Tested.
+        *Internet Explorer* Not Tested.
+
 
 # Improvements
 
